@@ -1,0 +1,33 @@
+% Draft additional evaluation text. Review assumptions and manuscript consistency before inclusion.
+\subsection{Embedded computation and hardware-informed evaluation}
+We additionally evaluated the implementation on a Jetson Nano running Python~3.6.9.
+For this experiment, the planar model used link lengths of 0.4, 0.3, and 0.2~m,
+64 motion primitives, and 40 clearance bins. An uncached analytic baseline
+recomputed the same swept-risk expression online; the lookup implementation
+used precomputed bounds. Both applied identical covariance, binning, threshold,
+and bounded-candidate selection rules. Across 21 unique clearance/goal queries
+and five shuffled, alternating-order repetitions, all 105 paired decisions
+agreed. Median online computation was 0.187~ms for lookup and 172.598~ms for
+recomputation; the respective 95th percentiles were 0.216 and 174.705~ms.
+Offline library construction required 7.048~s and was excluded from online
+timings. These measurements isolate computation and exclude perception,
+communication, and actuator response; the baseline is not a competing planner.
+
+Thirty stationary encoder snapshots informed a separate uncertainty-sensitivity
+replay. After adding a stated quantization allowance, we evaluated covariance
+multipliers of 1, 4, and 16, rebuilding the library for each regime. The latter
+two multipliers are synthetic. Over 120 matched clearance/goal cases per
+regime, adaptive-threshold acceptance was 114, 108, and 99, compared with
+117, 111, and 102 for a fixed threshold of 0.05. This demonstrates policy
+restrictiveness on the evaluated model inputs, not physical collision-rate
+improvement. All 360 stale-input replays held. All 360 wrong-start replays
+also held: 321 through the start-state check and 39 through risk infeasibility.
+
+Finally, a paired calibration ablation used the same 20 fitting views and
+20 repeat views of a fixed rigid checkerboard. Using measured encoder
+positions reduced repeat fixed-target translation RMS from 14.63 to 4.68~mm,
+and orientation RMS from 1.54 to 0.67~degrees, relative to using commanded
+positions. These are within-apparatus consistency measurements under the
+assumed 20~mm square size, not independent absolute positioning accuracy.
+An unresolved RGB-pose/depth discrepancy prevents claims of calibrated
+physical collision-clearance accuracy from this evaluation.
