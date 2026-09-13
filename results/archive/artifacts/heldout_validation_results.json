@@ -1,0 +1,142 @@
+{
+  "protocol": "held-out scenes not used to choose the 1.10x sigma guard",
+  "method": "planar capsule links; first-order normal projection; union bound across links and obstacles",
+  "trials_per_scenario": 25000,
+  "total_trials": 100000,
+  "guard_sigma_multiplier": 1.1,
+  "summary": {
+    "scenarios": 4,
+    "event_scenarios": 4,
+    "guarded_covers_wilson": 4,
+    "nominal_covers_wilson": 0,
+    "nominal_mean_absolute_error": 0.0024238809960074395,
+    "guarded_mean_excess_over_observed": 0.02483416289852789
+  },
+  "results": [
+    {
+      "scenario": "bent-link3-correlated",
+      "trials": 25000,
+      "seed": 4101,
+      "obstacle_count": 1,
+      "predicted_risk": 0.34776331727957543,
+      "guard_sigma_multiplier": 1.1,
+      "guarded_risk": 0.3609999011157139,
+      "collisions": 8629,
+      "observed_rate": 0.34516,
+      "wilson_upper_95": 0.35012229931047795,
+      "guarded_covers_wilson": true,
+      "joint_angles_rad": [
+        0.45,
+        -0.75,
+        0.35
+      ],
+      "joint_noise_stddev_degrees": [
+        0.8,
+        1.2,
+        0.6
+      ],
+      "joint_noise_correlations": [
+        0.45,
+        -0.2,
+        0.25
+      ],
+      "nominal_minimum_clearances_m": [
+        0.004999999999999989
+      ]
+    },
+    {
+      "scenario": "folded-link3-correlated",
+      "trials": 25000,
+      "seed": 4202,
+      "obstacle_count": 1,
+      "predicted_risk": 0.1564067761909994,
+      "guard_sigma_multiplier": 1.1,
+      "guarded_risk": 0.17941988817692112,
+      "collisions": 3970,
+      "observed_rate": 0.1588,
+      "wilson_upper_95": 0.1626390700839347,
+      "guarded_covers_wilson": true,
+      "joint_angles_rad": [
+        0.8,
+        -1.1,
+        0.65
+      ],
+      "joint_noise_stddev_degrees": [
+        1.2,
+        0.7,
+        1.0
+      ],
+      "joint_noise_correlations": [
+        -0.35,
+        0.2,
+        0.15
+      ],
+      "nominal_minimum_clearances_m": [
+        0.011999999999999946
+      ]
+    },
+    {
+      "scenario": "near-singular-link2-correlated",
+      "trials": 25000,
+      "seed": 4303,
+      "obstacle_count": 1,
+      "predicted_risk": 0.2358361322046597,
+      "guard_sigma_multiplier": 1.1,
+      "guarded_risk": 0.2564502456763363,
+      "collisions": 5870,
+      "observed_rate": 0.2348,
+      "wilson_upper_95": 0.23923809710369223,
+      "guarded_covers_wilson": true,
+      "joint_angles_rad": [
+        0.03,
+        -0.04,
+        0.02
+      ],
+      "joint_noise_stddev_degrees": [
+        0.9,
+        1.1,
+        0.8
+      ],
+      "joint_noise_correlations": [
+        0.6,
+        0.1,
+        0.25
+      ],
+      "nominal_minimum_clearances_m": [
+        0.005999999999999998
+      ]
+    },
+    {
+      "scenario": "bent-two-obstacle-correlated",
+      "trials": 25000,
+      "seed": 4404,
+      "obstacle_count": 2,
+      "predicted_risk": 0.23621714930920595,
+      "guard_sigma_multiplier": 1.1,
+      "guarded_risk": 0.2811066166251403,
+      "collisions": 5997,
+      "observed_rate": 0.23988,
+      "wilson_upper_95": 0.2443501682402716,
+      "guarded_covers_wilson": true,
+      "joint_angles_rad": [
+        0.35,
+        -0.65,
+        0.45
+      ],
+      "joint_noise_stddev_degrees": [
+        1.0,
+        0.8,
+        1.3
+      ],
+      "joint_noise_correlations": [
+        0.3,
+        -0.25,
+        0.4
+      ],
+      "nominal_minimum_clearances_m": [
+        0.007999999999999993,
+        0.013999999999999997
+      ]
+    }
+  ]
+}

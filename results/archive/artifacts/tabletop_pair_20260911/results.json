@@ -1,0 +1,36 @@
+{
+  "roi_native_depth_xyxy": [
+    240,
+    320,
+    400,
+    390
+  ],
+  "roi_selection": "Exploratory lower-middle ROI chosen from depth preview before numerical comparison; not an independently annotated object mask",
+  "obstacle": {
+    "frames": 60,
+    "valid_fraction": 0.9999940476190476,
+    "median_mm": 359.0,
+    "frame_median_p05_mm": 359.0,
+    "frame_median_p95_mm": 359.0,
+    "frame_median_std_mm": 0.0
+  },
+  "background": {
+    "frames": 60,
+    "valid_fraction": 0.9999642857142857,
+    "median_mm": 716.0,
+    "frame_median_p05_mm": 715.0,
+    "frame_median_p95_mm": 716.0,
+    "frame_median_std_mm": 0.4691017983072984
+  },
+  "between_trial_max_encoder_difference_ticks": 1,
+  "both_valid_pixel_fraction": 1.0,
+  "median_background_minus_obstacle_mm": 354.0,
+  "fraction_both_valid_pixels_nearer_by_over_50mm": 1.0,
+  "reference_distance_mm": null,
+  "limitations": [
+    "One physical scene pair; frames are temporally correlated, not 60 independent trials.",
+    "Unknown reference distance: no absolute accuracy claim.",
+    "ROI may include non-object pixels; no measured precision or recall.",
+    "No physical avoidance or stopping performance measured."
+  ]
+}

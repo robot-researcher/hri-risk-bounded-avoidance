@@ -1,0 +1,854 @@
+{
+  "views": [
+    {
+      "file": "view_01.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        447.6353759765625,
+        345.5652770996094
+      ],
+      "area_px": 1889.6411668607034,
+      "sharpness": 1604.9259000260674,
+      "time_unix": 1789017930.0914228
+    },
+    {
+      "file": "view_02.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        411.9908752441406,
+        256.7628479003906
+      ],
+      "area_px": 412.93683249445166,
+      "sharpness": 661.3706205492552,
+      "time_unix": 1789017931.1623504
+    },
+    {
+      "file": "view_03.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        431.4337463378906,
+        275.7200622558594
+      ],
+      "area_px": 824.2564919334836,
+      "sharpness": 1233.0921444582516,
+      "time_unix": 1789017932.2073426
+    },
+    {
+      "file": "view_04.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        402.8775329589844,
+        277.2978820800781
+      ],
+      "area_px": 1042.9079332491383,
+      "sharpness": 931.919172232691,
+      "time_unix": 1789017933.5788784
+    },
+    {
+      "file": "view_05.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        400.96826171875,
+        259.0998229980469
+      ],
+      "area_px": 909.6182770535816,
+      "sharpness": 760.7682954710219,
+      "time_unix": 1789017934.6362095
+    },
+    {
+      "file": "view_06.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        401.0028991699219,
+        257.0281982421875
+      ],
+      "area_px": 324.02544018859044,
+      "sharpness": 401.25664049207904,
+      "time_unix": 1789017935.691133
+    },
+    {
+      "file": "view_07.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        407.8579406738281,
+        254.24703979492188
+      ],
+      "area_px": 281.30169891857076,
+      "sharpness": 205.54488529307045,
+      "time_unix": 1789017936.7909656
+    },
+    {
+      "file": "view_08.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        409.6299133300781,
+        252.19065856933594
+      ],
+      "area_px": 156.26943728420883,
+      "sharpness": 324.31938675927057,
+      "time_unix": 1789017937.8480058
+    },
+    {
+      "file": "view_09.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        379.2391052246094,
+        231.35606384277344
+      ],
+      "area_px": 156.71423482522368,
+      "sharpness": 374.4743680689495,
+      "time_unix": 1789017938.8874295
+    },
+    {
+      "file": "view_10.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        361.19952392578125,
+        246.99896240234375
+      ],
+      "area_px": 317.4912919632625,
+      "sharpness": 590.4337223659514,
+      "time_unix": 1789017939.8981333
+    },
+    {
+      "file": "view_11.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        358.8381652832031,
+        249.03131103515625
+      ],
+      "area_px": 359.18744009768125,
+      "sharpness": 1054.3744496662991,
+      "time_unix": 1789017940.9265034
+    },
+    {
+      "file": "view_12.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        419.5855407714844,
+        236.76828002929688
+      ],
+      "area_px": 3822.8023000546964,
+      "sharpness": 1726.2146414563395,
+      "time_unix": 1789017945.985705
+    },
+    {
+      "file": "view_13.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        399.0867614746094,
+        206.2478485107422
+      ],
+      "area_px": 2935.258876212756,
+      "sharpness": 901.9876346327043,
+      "time_unix": 1789017947.780334
+    },
+    {
+      "file": "view_14.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        447.67034912109375,
+        199.85580444335938
+      ],
+      "area_px": 1625.4870579569833,
+      "sharpness": 1143.4632312647398,
+      "time_unix": 1789017949.899982
+    },
+    {
+      "file": "view_15.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        453.35528564453125,
+        216.2176513671875
+      ],
+      "area_px": 1838.4708483670838,
+      "sharpness": 1140.1470826122597,
+      "time_unix": 1789017950.9529397
+    },
+    {
+      "file": "view_16.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        432.0999450683594,
+        205.92510986328125
+      ],
+      "area_px": 2272.508196515497,
+      "sharpness": 1165.0661388837068,
+      "time_unix": 1789017952.1362271
+    },
+    {
+      "file": "view_17.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        390.12060546875,
+        237.371337890625
+      ],
+      "area_px": 2365.2226100489497,
+      "sharpness": 837.3851672627766,
+      "time_unix": 1789017954.0080051
+    },
+    {
+      "file": "view_18.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        237.66470336914062,
+        273.4698791503906
+      ],
+      "area_px": 1789.9399023312726,
+      "sharpness": 848.5915878497652,
+      "time_unix": 1789017955.0604959
+    },
+    {
+      "file": "view_19.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        331.946533203125,
+        248.7202911376953
+      ],
+      "area_px": 728.1665129645262,
+      "sharpness": 875.9181990050845,
+      "time_unix": 1789017956.2907217
+    },
+    {
+      "file": "view_20.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        384.16650390625,
+        246.333740234375
+      ],
+      "area_px": 2179.4497874610825,
+      "sharpness": 701.2812441730077,
+      "time_unix": 1789017957.372981
+    },
+    {
+      "file": "view_21.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        358.5804138183594,
+        244.11021423339844
+      ],
+      "area_px": 1173.7954267131863,
+      "sharpness": 432.57542792421975,
+      "time_unix": 1789017959.4048457
+    },
+    {
+      "file": "view_22.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        372.8576965332031,
+        258.0546875
+      ],
+      "area_px": 4204.765237569576,
+      "sharpness": 611.1818409148215,
+      "time_unix": 1789017960.4842927
+    },
+    {
+      "file": "view_23.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        429.6496887207031,
+        312.80743408203125
+      ],
+      "area_px": 1324.6813566307537,
+      "sharpness": 976.9114916981591,
+      "time_unix": 1789017961.6876278
+    },
+    {
+      "file": "view_24.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        437.0206298828125,
+        306.5692138671875
+      ],
+      "area_px": 1798.0376085985918,
+      "sharpness": 1029.081361691782,
+      "time_unix": 1789017962.7831333
+    },
+    {
+      "file": "view_25.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        438.8658447265625,
+        275.31494140625
+      ],
+      "area_px": 1317.4481279109605,
+      "sharpness": 1041.0237744012513,
+      "time_unix": 1789017963.8347108
+    },
+    {
+      "file": "view_26.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        479.0446472167969,
+        276.97900390625
+      ],
+      "area_px": 1764.163689903682,
+      "sharpness": 1864.2167362958162,
+      "time_unix": 1789017964.8932633
+    },
+    {
+      "file": "view_27.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        386.68548583984375,
+        295.4984130859375
+      ],
+      "area_px": 57.87323084194213,
+      "sharpness": 635.7432475317956,
+      "time_unix": 1789017968.5557477
+    },
+    {
+      "file": "view_28.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        385.3895263671875,
+        284.7879943847656
+      ],
+      "area_px": 1581.419532880769,
+      "sharpness": 605.3575060709212,
+      "time_unix": 1789017969.563403
+    },
+    {
+      "file": "view_29.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        387.29443359375,
+        286.6373291015625
+      ],
+      "area_px": 3818.812651419663,
+      "sharpness": 753.9666666327158,
+      "time_unix": 1789017970.5714402
+    },
+    {
+      "file": "view_30.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        416.7381286621094,
+        314.19842529296875
+      ],
+      "area_px": 211.2955190797802,
+      "sharpness": 1344.9819760026296,
+      "time_unix": 1789017972.9242358
+    },
+    {
+      "file": "view_31.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        410.9256896972656,
+        297.17138671875
+      ],
+      "area_px": 260.7940230630338,
+      "sharpness": 1163.4132655458982,
+      "time_unix": 1789017973.9969301
+    },
+    {
+      "file": "view_32.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        435.7952575683594,
+        281.0442810058594
+      ],
+      "area_px": 170.44071743055247,
+      "sharpness": 604.6748176534018,
+      "time_unix": 1789017975.0271804
+    },
+    {
+      "file": "view_33.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        470.51763916015625,
+        281.8741455078125
+      ],
+      "area_px": 814.3464275419246,
+      "sharpness": 650.1705331166479,
+      "time_unix": 1789017976.0411475
+    },
+    {
+      "file": "view_34.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        442.87481689453125,
+        271.453857421875
+      ],
+      "area_px": 133.3323221753817,
+      "sharpness": 595.8086939332645,
+      "time_unix": 1789017977.047562
+    },
+    {
+      "file": "view_35.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        397.55548095703125,
+        254.00418090820312
+      ],
+      "area_px": 3208.148531600251,
+      "sharpness": 777.4029244383074,
+      "time_unix": 1789017978.0773737
+    },
+    {
+      "file": "view_36.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        399.8667297363281,
+        236.5619659423828
+      ],
+      "area_px": 3655.60220205551,
+      "sharpness": 832.5995381130216,
+      "time_unix": 1789017981.0814247
+    },
+    {
+      "file": "view_37.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        420.809326171875,
+        238.6317596435547
+      ],
+      "area_px": 4992.505813908298,
+      "sharpness": 1618.7816599621133,
+      "time_unix": 1789017982.284286
+    },
+    {
+      "file": "view_38.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        418.4988098144531,
+        245.9933319091797
+      ],
+      "area_px": 6992.256514388369,
+      "sharpness": 1737.1021925457312,
+      "time_unix": 1789017984.4289818
+    },
+    {
+      "file": "view_39.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        373.556396484375,
+        277.4372863769531
+      ],
+      "area_px": 7204.363205780974,
+      "sharpness": 1330.7295534077855,
+      "time_unix": 1789017994.52329
+    },
+    {
+      "file": "view_40.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        362.32904052734375,
+        249.06307983398438
+      ],
+      "area_px": 520.705172493821,
+      "sharpness": 377.6042135721419,
+      "time_unix": 1789017995.54247
+    },
+    {
+      "file": "view_41.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        449.7939758300781,
+        282.19085693359375
+      ],
+      "area_px": 7.1696210745722055,
+      "sharpness": 1484.6708431976213,
+      "time_unix": 1789017996.557622
+    },
+    {
+      "file": "view_42.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        477.7396240234375,
+        293.4196472167969
+      ],
+      "area_px": 124.34497752366588,
+      "sharpness": 1608.1732073974608,
+      "time_unix": 1789017997.6085935
+    },
+    {
+      "file": "view_43.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        309.74114990234375,
+        268.3370056152344
+      ],
+      "area_px": 128.17487711005379,
+      "sharpness": 1179.8321922426753,
+      "time_unix": 1789018002.029643
+    },
+    {
+      "file": "view_44.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        320.8182067871094,
+        259.11376953125
+      ],
+      "area_px": 356.51265239482746,
+      "sharpness": 1181.422774211788,
+      "time_unix": 1789018003.0723376
+    },
+    {
+      "file": "view_45.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        404.9967041015625,
+        310.8651428222656
+      ],
+      "area_px": 2574.9807733050548,
+      "sharpness": 2264.3298755543606,
+      "time_unix": 1789018007.2793515
+    },
+    {
+      "file": "view_46.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        395.0561828613281,
+        268.5343322753906
+      ],
+      "area_px": 3424.770699593704,
+      "sharpness": 1426.632110182699,
+      "time_unix": 1789018010.7077107
+    },
+    {
+      "file": "view_47.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        384.4529113769531,
+        231.72377014160156
+      ],
+      "area_px": 2529.9256028054515,
+      "sharpness": 698.2042765446876,
+      "time_unix": 1789018011.774843
+    },
+    {
+      "file": "view_48.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        381.245361328125,
+        263.8232727050781
+      ],
+      "area_px": 2972.7627599036787,
+      "sharpness": 841.3012884879113,
+      "time_unix": 1789018012.7967944
+    },
+    {
+      "file": "view_49.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        387.9129333496094,
+        367.8903503417969
+      ],
+      "area_px": 1139.595348821953,
+      "sharpness": 2599.294854630364,
+      "time_unix": 1789018014.3541214
+    },
+    {
+      "file": "view_50.png",
+      "pattern_inner_corners": [
+        10,
+        7
+      ],
+      "square_mm": 20.0,
+      "width": 640,
+      "height": 480,
+      "center_px": [
+        401.0496520996094,
+        238.6538848876953
+      ],
+      "area_px": 21.6995525888633,
+      "sharpness": 684.5674823666785,
+      "time_unix": 1789018015.4381304
+    }
+  ]
+}

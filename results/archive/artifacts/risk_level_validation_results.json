@@ -1,0 +1,347 @@
+{
+  "protocol": "pre-declared poses and risk levels; clearance selected from the guarded analytic model at 65% of delta; independent seeded Monte Carlo",
+  "risk_levels": [
+    0.001,
+    0.01,
+    0.05
+  ],
+  "design_target_fraction": 0.65,
+  "guard_sigma_multiplier": 1.1,
+  "trials_per_scenario": 100000,
+  "total_trials": 900000,
+  "summary": {
+    "scenarios": 9,
+    "scenarios_meeting_configured_delta": 9,
+    "per_level": {
+      "0.001": {
+        "scenarios": 3,
+        "scenarios_meeting_delta": 3,
+        "maximum_wilson_to_delta_ratio": 0.3815878176800509,
+        "mean_observed_rate": 0.00022999999999999998,
+        "total_collisions": 69
+      },
+      "0.01": {
+        "scenarios": 3,
+        "scenarios_meeting_delta": 3,
+        "maximum_wilson_to_delta_ratio": 0.3632943743233335,
+        "mean_observed_rate": 0.00322,
+        "total_collisions": 966
+      },
+      "0.05": {
+        "scenarios": 3,
+        "scenarios_meeting_delta": 3,
+        "maximum_wilson_to_delta_ratio": 0.463654755049346,
+        "mean_observed_rate": 0.02202,
+        "total_collisions": 6606
+      }
+    }
+  },
+  "results": [
+    {
+      "scenario": "bent-delta-0.001",
+      "trials": 100000,
+      "seed": 5100,
+      "obstacle_count": 1,
+      "predicted_risk": 0.0002019076476591497,
+      "guard_sigma_multiplier": 1.1,
+      "guarded_risk": 0.0006499999999999839,
+      "collisions": 20,
+      "observed_rate": 0.0002,
+      "wilson_upper_95": 0.0002883063049865088,
+      "guarded_covers_wilson": true,
+      "configured_delta": 0.001,
+      "design_target_risk": 0.0006500000000000001,
+      "design_target_fraction": 0.65,
+      "nominal_clearance_m": 0.045195248043889955,
+      "joint_angles_rad": [
+        0.45,
+        -0.75,
+        0.35
+      ],
+      "joint_noise_stddev_degrees": [
+        0.8,
+        1.2,
+        0.6
+      ],
+      "joint_noise_correlations": [
+        0.45,
+        -0.2,
+        0.25
+      ],
+      "wilson_meets_configured_delta": true,
+      "wilson_to_delta_ratio": 0.28830630498650883
+    },
+    {
+      "scenario": "folded-delta-0.001",
+      "trials": 100000,
+      "seed": 5201,
+      "obstacle_count": 1,
+      "predicted_risk": 0.0002019076476591497,
+      "guard_sigma_multiplier": 1.1,
+      "guarded_risk": 0.0006499999999999839,
+      "collisions": 21,
+      "observed_rate": 0.00021,
+      "wilson_upper_95": 0.0003000927477557476,
+      "guarded_covers_wilson": true,
+      "configured_delta": 0.001,
+      "design_target_risk": 0.0006500000000000001,
+      "design_target_fraction": 0.65,
+      "nominal_clearance_m": 0.04205827953507248,
+      "joint_angles_rad": [
+        0.8,
+        -1.1,
+        0.65
+      ],
+      "joint_noise_stddev_degrees": [
+        1.2,
+        0.7,
+        1.0
+      ],
+      "joint_noise_correlations": [
+        -0.35,
+        0.2,
+        0.15
+      ],
+      "wilson_meets_configured_delta": true,
+      "wilson_to_delta_ratio": 0.30009274775574757
+    },
+    {
+      "scenario": "near-singular-delta-0.001",
+      "trials": 100000,
+      "seed": 5302,
+      "obstacle_count": 1,
+      "predicted_risk": 0.0002019076476591497,
+      "guard_sigma_multiplier": 1.1,
+      "guarded_risk": 0.0006499999999999839,
+      "collisions": 28,
+      "observed_rate": 0.00028,
+      "wilson_upper_95": 0.0003815878176800509,
+      "guarded_covers_wilson": true,
+      "configured_delta": 0.001,
+      "design_target_risk": 0.0006500000000000001,
+      "design_target_fraction": 0.65,
+      "nominal_clearance_m": 0.029489610255927716,
+      "joint_angles_rad": [
+        0.03,
+        -0.04,
+        0.02
+      ],
+      "joint_noise_stddev_degrees": [
+        0.9,
+        1.1,
+        0.8
+      ],
+      "joint_noise_correlations": [
+        0.6,
+        0.1,
+        0.25
+      ],
+      "wilson_meets_configured_delta": true,
+      "wilson_to_delta_ratio": 0.3815878176800509
+    },
+    {
+      "scenario": "bent-delta-0.01",
+      "trials": 100000,
+      "seed": 5200,
+      "obstacle_count": 1,
+      "predicted_risk": 0.003146160394485842,
+      "guard_sigma_multiplier": 1.1,
+      "guarded_risk": 0.00649999999999995,
+      "collisions": 318,
+      "observed_rate": 0.00318,
+      "wilson_upper_95": 0.003486598331897827,
+      "guarded_covers_wilson": true,
+      "configured_delta": 0.01,
+      "design_target_risk": 0.006500000000000001,
+      "design_target_fraction": 0.65,
+      "nominal_clearance_m": 0.034905247433754436,
+      "joint_angles_rad": [
+        0.45,
+        -0.75,
+        0.35
+      ],
+      "joint_noise_stddev_degrees": [
+        0.8,
+        1.2,
+        0.6
+      ],
+      "joint_noise_correlations": [
+        0.45,
+        -0.2,
+        0.25
+      ],
+      "wilson_meets_configured_delta": true,
+      "wilson_to_delta_ratio": 0.34865983318978266
+    },
+    {
+      "scenario": "folded-delta-0.01",
+      "trials": 100000,
+      "seed": 5301,
+      "obstacle_count": 1,
+      "predicted_risk": 0.003146160394485842,
+      "guard_sigma_multiplier": 1.1,
+      "guarded_risk": 0.00649999999999995,
+      "collisions": 316,
+      "observed_rate": 0.00316,
+      "wilson_upper_95": 0.0034656804359966434,
+      "guarded_covers_wilson": true,
+      "configured_delta": 0.01,
+      "design_target_risk": 0.006500000000000001,
+      "design_target_fraction": 0.65,
+      "nominal_clearance_m": 0.0324825002040936,
+      "joint_angles_rad": [
+        0.8,
+        -1.1,
+        0.65
+      ],
+      "joint_noise_stddev_degrees": [
+        1.2,
+        0.7,
+        1.0
+      ],
+      "joint_noise_correlations": [
+        -0.35,
+        0.2,
+        0.15
+      ],
+      "wilson_meets_configured_delta": true,
+      "wilson_to_delta_ratio": 0.3465680435996643
+    },
+    {
+      "scenario": "near-singular-delta-0.01",
+      "trials": 100000,
+      "seed": 5402,
+      "obstacle_count": 1,
+      "predicted_risk": 0.003146160394485842,
+      "guard_sigma_multiplier": 1.1,
+      "guarded_risk": 0.00649999999999995,
+      "collisions": 332,
+      "observed_rate": 0.00332,
+      "wilson_upper_95": 0.003632943743233335,
+      "guarded_covers_wilson": true,
+      "configured_delta": 0.01,
+      "design_target_risk": 0.006500000000000001,
+      "design_target_fraction": 0.65,
+      "nominal_clearance_m": 0.02277545067810063,
+      "joint_angles_rad": [
+        0.03,
+        -0.04,
+        0.02
+      ],
+      "joint_noise_stddev_degrees": [
+        0.9,
+        1.1,
+        0.8
+      ],
+      "joint_noise_correlations": [
+        0.6,
+        0.1,
+        0.25
+      ],
+      "wilson_meets_configured_delta": true,
+      "wilson_to_delta_ratio": 0.3632943743233335
+    },
+    {
+      "scenario": "bent-delta-0.05",
+      "trials": 100000,
+      "seed": 5300,
+      "obstacle_count": 1,
+      "predicted_risk": 0.021189253651478335,
+      "guard_sigma_multiplier": 1.1,
+      "guarded_risk": 0.03249999999999992,
+      "collisions": 2190,
+      "observed_rate": 0.0219,
+      "wilson_upper_95": 0.022674308342911516,
+      "guarded_covers_wilson": true,
+      "configured_delta": 0.05,
+      "design_target_risk": 0.0325,
+      "design_target_fraction": 0.65,
+      "nominal_clearance_m": 0.02593203455712329,
+      "joint_angles_rad": [
+        0.45,
+        -0.75,
+        0.35
+      ],
+      "joint_noise_stddev_degrees": [
+        0.8,
+        1.2,
+        0.6
+      ],
+      "joint_noise_correlations": [
+        0.45,
+        -0.2,
+        0.25
+      ],
+      "wilson_meets_configured_delta": true,
+      "wilson_to_delta_ratio": 0.4534861668582303
+    },
+    {
+      "scenario": "folded-delta-0.05",
+      "trials": 100000,
+      "seed": 5401,
+      "obstacle_count": 1,
+      "predicted_risk": 0.0211892536514785,
+      "guard_sigma_multiplier": 1.1,
+      "guarded_risk": 0.03249999999999986,
+      "collisions": 2240,
+      "observed_rate": 0.0224,
+      "wilson_upper_95": 0.023182737752467302,
+      "guarded_covers_wilson": true,
+      "configured_delta": 0.05,
+      "design_target_risk": 0.0325,
+      "design_target_fraction": 0.65,
+      "nominal_clearance_m": 0.024132111350677648,
+      "joint_angles_rad": [
+        0.8,
+        -1.1,
+        0.65
+      ],
+      "joint_noise_stddev_degrees": [
+        1.2,
+        0.7,
+        1.0
+      ],
+      "joint_noise_correlations": [
+        -0.35,
+        0.2,
+        0.15
+      ],
+      "wilson_meets_configured_delta": true,
+      "wilson_to_delta_ratio": 0.463654755049346
+    },
+    {
+      "scenario": "near-singular-delta-0.05",
+      "trials": 100000,
+      "seed": 5502,
+      "obstacle_count": 1,
+      "predicted_risk": 0.0211892536514785,
+      "guard_sigma_multiplier": 1.1,
+      "guarded_risk": 0.03249999999999992,
+      "collisions": 2176,
+      "observed_rate": 0.02176,
+      "wilson_upper_95": 0.02253192968141151,
+      "guarded_covers_wilson": true,
+      "configured_delta": 0.05,
+      "design_target_risk": 0.0325,
+      "design_target_fraction": 0.65,
+      "nominal_clearance_m": 0.016920486673514337,
+      "joint_angles_rad": [
+        0.03,
+        -0.04,
+        0.02
+      ],
+      "joint_noise_stddev_degrees": [
+        0.9,
+        1.1,
+        0.8
+      ],
+      "joint_noise_correlations": [
+        0.6,
+        0.1,
+        0.25
+      ],
+      "wilson_meets_configured_delta": true,
+      "wilson_to_delta_ratio": 0.45063859362823017
+    }
+  ]
+}

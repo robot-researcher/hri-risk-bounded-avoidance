@@ -1,0 +1,16 @@
+{
+  "environment": "current Windows development host; not Raspberry Pi",
+  "primitive_count": 64,
+  "distance_bin_count": 20,
+  "certificate_entries": 1280,
+  "offline_build_ms": 81.4829,
+  "online_iterations": 20000,
+  "online_latency_us": {
+    "median": 13.9,
+    "p95": 24.4,
+    "p99": 41.2,
+    "maximum": 283.4
+  },
+  "fallback_count": 1190,
+  "artifact_bytes": 109121
+}

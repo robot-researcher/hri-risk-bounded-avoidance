@@ -1,0 +1,598 @@
+{
+  "snapshot_date": "2026-09-13",
+  "policy": "Numerical results retained including exploratory and superseded trials. Machine-local access paths normalized where listed. Raw lab photos, depth image arrays, SSH logs and credentials excluded.",
+  "files": [
+    {
+      "source": "artifacts/benchmark_certificate_library.json",
+      "path": "results/archive/artifacts/benchmark_certificate_library.json",
+      "category": "historical results and libraries",
+      "source_sha256": "66a707fd8b1322d5f643dc7aa55b4f23aa29afafb96d7aa36e08f3d5e4636254",
+      "sha256": "66a707fd8b1322d5f643dc7aa55b4f23aa29afafb96d7aa36e08f3d5e4636254",
+      "bytes": 109121,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "artifacts/benchmark_results.json",
+      "path": "results/archive/artifacts/benchmark_results.json",
+      "category": "historical results and libraries",
+      "source_sha256": "c4963f8f28b91f7ee98e90b134dfe36e07ffc80d065530d8016a193b77cba0fb",
+      "sha256": "c4963f8f28b91f7ee98e90b134dfe36e07ffc80d065530d8016a193b77cba0fb",
+      "bytes": 392,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "artifacts/box_sequence_20260911/results.json",
+      "path": "results/archive/artifacts/box_sequence_20260911/results.json",
+      "category": "historical results and libraries",
+      "source_sha256": "01f5e42c193ce388fbd845d5ad25eec246717d7fa1e99bafb5d3b3a70eb7a9c6",
+      "sha256": "01f5e42c193ce388fbd845d5ad25eec246717d7fa1e99bafb5d3b3a70eb7a9c6",
+      "bytes": 1857,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "artifacts/calibration_results.json",
+      "path": "results/archive/artifacts/calibration_results.json",
+      "category": "historical results and libraries",
+      "source_sha256": "0d13bedf39e9015a11cd2a46b762026fdda8373de8468c6b6c44279c50270486",
+      "sha256": "0d13bedf39e9015a11cd2a46b762026fdda8373de8468c6b6c44279c50270486",
+      "bytes": 4237,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "artifacts/certificate_conservatism_results.json",
+      "path": "results/archive/artifacts/certificate_conservatism_results.json",
+      "category": "historical results and libraries",
+      "source_sha256": "fe84591f74bf3322f5588cc02fbbc25428816130c9c46611a79954ba67c4573c",
+      "sha256": "fe84591f74bf3322f5588cc02fbbc25428816130c9c46611a79954ba67c4573c",
+      "bytes": 1459,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "artifacts/certificate_library.json",
+      "path": "results/archive/artifacts/certificate_library.json",
+      "category": "historical results and libraries",
+      "source_sha256": "7ef808c06d0d86a5589fdeb1ef08f5fb0c43d49cc3849838dcdedd1894399522",
+      "sha256": "7ef808c06d0d86a5589fdeb1ef08f5fb0c43d49cc3849838dcdedd1894399522",
+      "bytes": 109720,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "artifacts/certificate_library_wide.json",
+      "path": "results/archive/artifacts/certificate_library_wide.json",
+      "category": "historical results and libraries",
+      "source_sha256": "6f9698c70d21f724d7b3abfc955af44cad4430c22fdf833379b3ad8aa05e518a",
+      "sha256": "6f9698c70d21f724d7b3abfc955af44cad4430c22fdf833379b3ad8aa05e518a",
+      "bytes": 480637,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "artifacts/depth_dropout_replay_20260912/results.json",
+      "path": "results/archive/artifacts/depth_dropout_replay_20260912/results.json",
+      "category": "historical results and libraries",
+      "source_sha256": "4b6111dc420b3fd11ad9cc34fb56f8baa46b4ad40bab101ce993f29e2a25be88",
+      "sha256": "4b6111dc420b3fd11ad9cc34fb56f8baa46b4ad40bab101ce993f29e2a25be88",
+      "bytes": 2815,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "artifacts/feedback_calibration_ablation_20260910/results.json",
+      "path": "results/archive/artifacts/feedback_calibration_ablation_20260910/results.json",
+      "category": "historical results and libraries",
+      "source_sha256": "2211353f6a4b15d744ee0f85efa62d47bd54e274df60cdb7d5b000b8cf6581fb",
+      "sha256": "2211353f6a4b15d744ee0f85efa62d47bd54e274df60cdb7d5b000b8cf6581fb",
+      "bytes": 4539,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "artifacts/handeye_20260910T101550Z/handeye_results.json",
+      "path": "results/archive/artifacts/handeye_20260910T101550Z/handeye_results.json",
+      "category": "historical results and libraries",
+      "source_sha256": "4a40bcdc5fd93c176a53b339d40c3998d6925fb73f32d59f35e10c725fded89d",
+      "sha256": "4a40bcdc5fd93c176a53b339d40c3998d6925fb73f32d59f35e10c725fded89d",
+      "bytes": 26693,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "artifacts/handeye_20260910T101550Z_reviewed/handeye_results.json",
+      "path": "results/archive/artifacts/handeye_20260910T101550Z_reviewed/handeye_results.json",
+      "category": "historical results and libraries",
+      "source_sha256": "80c826036b87aef15995a7a196527cf3efbcd5cc5a1e578fb99cdd43bcaedff6",
+      "sha256": "80c826036b87aef15995a7a196527cf3efbcd5cc5a1e578fb99cdd43bcaedff6",
+      "bytes": 22836,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "artifacts/handeye_repeat_20260910T102033Z/results.json",
+      "path": "results/archive/artifacts/handeye_repeat_20260910T102033Z/results.json",
+      "category": "historical results and libraries",
+      "source_sha256": "542f43c9549b3585221e49a34bcb5c7f5eacd8e1a1ba8a4ad2a4359df227f85c",
+      "sha256": "542f43c9549b3585221e49a34bcb5c7f5eacd8e1a1ba8a4ad2a4359df227f85c",
+      "bytes": 3039,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "artifacts/heldout_validation_results.json",
+      "path": "results/archive/artifacts/heldout_validation_results.json",
+      "category": "historical results and libraries",
+      "source_sha256": "e847743b42b336a09ec17fbae990459559aadb30d537f499ff9c5c3e52fda758",
+      "sha256": "e847743b42b336a09ec17fbae990459559aadb30d537f499ff9c5c3e52fda758",
+      "bytes": 3593,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "artifacts/hsc_reduced_baseline_results.json",
+      "path": "results/archive/artifacts/hsc_reduced_baseline_results.json",
+      "category": "historical results and libraries",
+      "source_sha256": "17751da70f033bbe81cca51ff7cede1fb1402809033237abfa67797e33a1cdc6",
+      "sha256": "17751da70f033bbe81cca51ff7cede1fb1402809033237abfa67797e33a1cdc6",
+      "bytes": 18212,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "artifacts/live_sim_demo.csv",
+      "path": "results/archive/artifacts/live_sim_demo.csv",
+      "category": "historical results and libraries",
+      "source_sha256": "bd6d054d2a0debe3a6ff68f36b05c281fe50a6043393d0c9db9a63668a625f5e",
+      "sha256": "bd6d054d2a0debe3a6ff68f36b05c281fe50a6043393d0c9db9a63668a625f5e",
+      "bytes": 863,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "artifacts/obstacle_sensing_suite_20260911/results.json",
+      "path": "results/archive/artifacts/obstacle_sensing_suite_20260911/results.json",
+      "category": "historical results and libraries",
+      "source_sha256": "598c86033b4407a3b851102462fe14215fa29127be0d3b4978773792c67be129",
+      "sha256": "598c86033b4407a3b851102462fe14215fa29127be0d3b4978773792c67be129",
+      "bytes": 6014,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "artifacts/rgb_calibration_20260910/calibration.json",
+      "path": "results/archive/artifacts/rgb_calibration_20260910/calibration.json",
+      "category": "historical results and libraries",
+      "source_sha256": "204e2038cdbce42b008c15032c4e6f13a7507cb4eba8118cb3d8825ee5753781",
+      "sha256": "204e2038cdbce42b008c15032c4e6f13a7507cb4eba8118cb3d8825ee5753781",
+      "bytes": 27487,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "artifacts/rgb_rigid_20260910_132510/calibration.json",
+      "path": "results/archive/artifacts/rgb_rigid_20260910_132510/calibration.json",
+      "category": "historical results and libraries",
+      "source_sha256": "655b9c6d3957ec35054b3f83b727eea23bb89fcd423597587e3722031f86acb5",
+      "sha256": "655b9c6d3957ec35054b3f83b727eea23bb89fcd423597587e3722031f86acb5",
+      "bytes": 27964,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "artifacts/risk_level_validation_results.json",
+      "path": "results/archive/artifacts/risk_level_validation_results.json",
+      "category": "historical results and libraries",
+      "source_sha256": "9bbd2a645be677be6982c27bd221ee7c3ebceab75d158dae38ce6ee263be9588",
+      "sha256": "9bbd2a645be677be6982c27bd221ee7c3ebceab75d158dae38ce6ee263be9588",
+      "bytes": 9607,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "artifacts/stationary_feedback_20260910/summary.json",
+      "path": "results/archive/artifacts/stationary_feedback_20260910/summary.json",
+      "category": "historical results and libraries",
+      "source_sha256": "62c02102d0a706531b46210a6d744b6a7d18dedb099860ceab540ffdc7d15727",
+      "sha256": "62c02102d0a706531b46210a6d744b6a7d18dedb099860ceab540ffdc7d15727",
+      "bytes": 2456,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "artifacts/stress_validation_results.json",
+      "path": "results/archive/artifacts/stress_validation_results.json",
+      "category": "historical results and libraries",
+      "source_sha256": "7d95c967a52e924e33f81c4901ec495fac8d034fcd860888a6f9ed24ecab84c3",
+      "sha256": "7d95c967a52e924e33f81c4901ec495fac8d034fcd860888a6f9ed24ecab84c3",
+      "bytes": 23662,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "artifacts/swept_validation_results.json",
+      "path": "results/archive/artifacts/swept_validation_results.json",
+      "category": "historical results and libraries",
+      "source_sha256": "462019471b1b8d34fd876289a19c814308ecb137f63800cf9cb2688e97658fac",
+      "sha256": "462019471b1b8d34fd876289a19c814308ecb137f63800cf9cb2688e97658fac",
+      "bytes": 1158,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "artifacts/tabletop_marked35cm_20260911/results.json",
+      "path": "results/archive/artifacts/tabletop_marked35cm_20260911/results.json",
+      "category": "historical results and libraries",
+      "source_sha256": "4a7e03e18523574850d2c6175d5951343a6f9bdbb2c2ac1553d53d269fe62f16",
+      "sha256": "4a7e03e18523574850d2c6175d5951343a6f9bdbb2c2ac1553d53d269fe62f16",
+      "bytes": 1223,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "artifacts/tabletop_pair_20260911/results.json",
+      "path": "results/archive/artifacts/tabletop_pair_20260911/results.json",
+      "category": "historical results and libraries",
+      "source_sha256": "4c3f239f8b019fccc8a9bdcf25b31558a72d08e578c1ec7b80245f55355376b5",
+      "sha256": "4c3f239f8b019fccc8a9bdcf25b31558a72d08e578c1ec7b80245f55355376b5",
+      "bytes": 1222,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "artifacts/tabletop_remote_20260912T082901Z/results.json",
+      "path": "results/archive/artifacts/tabletop_remote_20260912T082901Z/results.json",
+      "category": "historical results and libraries",
+      "source_sha256": "2c4fb0a1624e0f8b02d0e98b5a20b4245d5fc579b7841def98d660c4417680b4",
+      "sha256": "2c4fb0a1624e0f8b02d0e98b5a20b4245d5fc579b7841def98d660c4417680b4",
+      "bytes": 1239,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "artifacts/tabletop_repositioned_20260911/results.json",
+      "path": "results/archive/artifacts/tabletop_repositioned_20260911/results.json",
+      "category": "historical results and libraries",
+      "source_sha256": "43021c28d7f9e1698b31766f6b912003e1caca7af8df8b393ab6f1b8c9db7a9e",
+      "sha256": "43021c28d7f9e1698b31766f6b912003e1caca7af8df8b393ab6f1b8c9db7a9e",
+      "bytes": 1222,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "data/20260911T074458Z_background/summary.json",
+      "path": "results/archive/data/20260911T074458Z_background/summary.json",
+      "category": "acquisition metadata and numerical records",
+      "source_sha256": "cbe2b11ff13f8adb1d1b078a9ad7249136567757dd4824485039746218868da3",
+      "sha256": "4d8fd933481be3f4cf157edf5438e49036bc07c80bdba7785d7b957d518e47ed",
+      "bytes": 4005,
+      "access_paths_normalized": true
+    },
+    {
+      "source": "data/20260911T112540Z_obstacle/summary.json",
+      "path": "results/archive/data/20260911T112540Z_obstacle/summary.json",
+      "category": "acquisition metadata and numerical records",
+      "source_sha256": "15ed1ac35b88a70691e6338d7bbe87aa4dcc268d578c2539f621d26ef23bf1c9",
+      "sha256": "e996544e7c074092e61b7074250c8c283f2b7b86429345c28ef788fd66fc9e52",
+      "bytes": 4006,
+      "access_paths_normalized": true
+    },
+    {
+      "source": "data/20260911T115632Z_obstacle/summary.json",
+      "path": "results/archive/data/20260911T115632Z_obstacle/summary.json",
+      "category": "acquisition metadata and numerical records",
+      "source_sha256": "1008ed544fb2cfee37a3ecf8b7ab5f4f85357e889713633fbcc12ec1686d1224",
+      "sha256": "604a30c81e7ae99e630f5bfaec382c3517617db8a8405852dcc1e27ed2a124f7",
+      "bytes": 4003,
+      "access_paths_normalized": true
+    },
+    {
+      "source": "data/20260911T115858Z_background/summary.json",
+      "path": "results/archive/data/20260911T115858Z_background/summary.json",
+      "category": "acquisition metadata and numerical records",
+      "source_sha256": "48fc96ac95fdd3a556f9f81b6c1ed9eeea44c0e0a16b7aa9d23eb3596a665cc2",
+      "sha256": "626a9d88bb90c15cd067703bad6deb86b48217aab1299188f774e17de5e77edc",
+      "bytes": 4004,
+      "access_paths_normalized": true
+    },
+    {
+      "source": "data/20260911T120444Z_obstacle/summary.json",
+      "path": "results/archive/data/20260911T120444Z_obstacle/summary.json",
+      "category": "acquisition metadata and numerical records",
+      "source_sha256": "12197f7c9c2cc6ecc441b7c7d26270efcb4b788bd5bac360c2e6064decb75736",
+      "sha256": "cd7b92ba2254e8e2688e9bacf2fdf069a1ede5849d966a8e30847e105fd3515e",
+      "bytes": 3998,
+      "access_paths_normalized": true
+    },
+    {
+      "source": "data/20260911T120830Z_background/summary.json",
+      "path": "results/archive/data/20260911T120830Z_background/summary.json",
+      "category": "acquisition metadata and numerical records",
+      "source_sha256": "be5637ccf635dea5374351d082cfd9141c5bbd7971c41ab4c1f76cb1cc504e5d",
+      "sha256": "701d5bffe2c782ca1faec0e0389434a89a8228ce797ec17be2f815d7e9e2bf26",
+      "bytes": 4006,
+      "access_paths_normalized": true
+    },
+    {
+      "source": "data/20260911T121504Z_obstacle/summary.json",
+      "path": "results/archive/data/20260911T121504Z_obstacle/summary.json",
+      "category": "acquisition metadata and numerical records",
+      "source_sha256": "7af8d1097320a254ecc633e2c525b0d61842d11be747909d4f01616cb4239741",
+      "sha256": "3bacb7d7fceaae75fe668434ebd92aae044740f0850b4b44e3efa4a976523d0c",
+      "bytes": 4001,
+      "access_paths_normalized": true
+    },
+    {
+      "source": "data/20260912T080201Z_background/summary.json",
+      "path": "results/archive/data/20260912T080201Z_background/summary.json",
+      "category": "acquisition metadata and numerical records",
+      "source_sha256": "7858cef17257f2aa65c88224f7d0a0a61cdf3dbfd0aab41fb5421bbb3392c75b",
+      "sha256": "61dce87fe13da4b0f71c6d63715fd5adf98224e0f631f79c37ade8a136e33fc8",
+      "bytes": 4006,
+      "access_paths_normalized": true
+    },
+    {
+      "source": "data/20260912T080201Z_obstacle_overnight_stability/summary.json",
+      "path": "results/archive/data/20260912T080201Z_obstacle_overnight_stability/summary.json",
+      "category": "acquisition metadata and numerical records",
+      "source_sha256": "8be0ba27f1832f25e0505fc6522c38d9655469310643c26e83f1b8cbaa03c19c",
+      "sha256": "b159a119d9ef9749fcba57305104cfb7907d8d2b7908cd40de93eb8fa1cf7bf6",
+      "bytes": 4113,
+      "access_paths_normalized": true
+    },
+    {
+      "source": "data/20260912T082901Z_obstacle/summary.json",
+      "path": "results/archive/data/20260912T082901Z_obstacle/summary.json",
+      "category": "acquisition metadata and numerical records",
+      "source_sha256": "0dff35da806d7d10ec0d653007b05e1cafb3b1cbfd22a81fa5f17f8f0ff48b26",
+      "sha256": "86cc86e38d4a73ea7995f845178a5a6d52cfd82c8839f002bbee3c40c45ba06b",
+      "bytes": 4001,
+      "access_paths_normalized": true
+    },
+    {
+      "source": "data/checkerboard_20260910/manifest.json",
+      "path": "results/archive/data/checkerboard_20260910/manifest.json",
+      "category": "acquisition metadata and numerical records",
+      "source_sha256": "f29f24e3cbf20bdb5c9fe265da4f447e1d40ceda79f23eabad7797c98fc01d36",
+      "sha256": "f29f24e3cbf20bdb5c9fe265da4f447e1d40ceda79f23eabad7797c98fc01d36",
+      "bytes": 18416,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "data/checkerboard_rigid_20260910_132510/manifest.json",
+      "path": "results/archive/data/checkerboard_rigid_20260910_132510/manifest.json",
+      "category": "acquisition metadata and numerical records",
+      "source_sha256": "472fbf1ff2ec3f4a7a0866c8e4b9d00ca6779b5a34026d0df6a38f767b61c441",
+      "sha256": "472fbf1ff2ec3f4a7a0866c8e4b9d00ca6779b5a34026d0df6a38f767b61c441",
+      "bytes": 18394,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "data/depth_audit_20260910T102802Z/records.jsonl",
+      "path": "results/archive/data/depth_audit_20260910T102802Z/records.jsonl",
+      "category": "acquisition metadata and numerical records",
+      "source_sha256": "f00bea590022a41ef5c5bad784647bf2c2c71afa02c8c30de0259200ae4583d4",
+      "sha256": "f00bea590022a41ef5c5bad784647bf2c2c71afa02c8c30de0259200ae4583d4",
+      "bytes": 22633,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "data/depth_audit_20260910T102802Z/summary.json",
+      "path": "results/archive/data/depth_audit_20260910T102802Z/summary.json",
+      "category": "acquisition metadata and numerical records",
+      "source_sha256": "b237701aee3cf4536dadf73d3db7d24830cd07cdef2e685e0fad53d06521cb1a",
+      "sha256": "4a07a359ab0ff981025cc9d178868f6d1cb8ff2afd054dd5c2cc9531f022bd9f",
+      "bytes": 493,
+      "access_paths_normalized": true
+    },
+    {
+      "source": "data/depth_audit_20260910T104810Z/records.jsonl",
+      "path": "results/archive/data/depth_audit_20260910T104810Z/records.jsonl",
+      "category": "acquisition metadata and numerical records",
+      "source_sha256": "add31a7a6acf77bdd14e4537bc61dc8dd53600382766d050e52f0a411e9c1c8c",
+      "sha256": "add31a7a6acf77bdd14e4537bc61dc8dd53600382766d050e52f0a411e9c1c8c",
+      "bytes": 22645,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "data/depth_audit_20260910T104810Z/summary.json",
+      "path": "results/archive/data/depth_audit_20260910T104810Z/summary.json",
+      "category": "acquisition metadata and numerical records",
+      "source_sha256": "448ccedec4158a5d40bb7110d4d1536f5a52c82bc09168904cae96ccc2830a3b",
+      "sha256": "98770b52724f872b063009ad444d62e9981f950f099e75169b581d7ee8e7f5e1",
+      "bytes": 493,
+      "access_paths_normalized": true
+    },
+    {
+      "source": "data/handeye_20260910T101550Z/events.jsonl",
+      "path": "results/archive/data/handeye_20260910T101550Z/events.jsonl",
+      "category": "acquisition metadata and numerical records",
+      "source_sha256": "7b4d5c9efa6aa26e139dfb382b9ac49c4daa9478c59d2aa45bfa2c85996c175a",
+      "sha256": "97faf1e8925c3f3cd89e2d0d09cbb60d8691b137d66a867e30b6df0b151ad70a",
+      "bytes": 5460,
+      "access_paths_normalized": true
+    },
+    {
+      "source": "data/handeye_20260910T101550Z/metadata.json",
+      "path": "results/archive/data/handeye_20260910T101550Z/metadata.json",
+      "category": "acquisition metadata and numerical records",
+      "source_sha256": "bc47880fee5e6aad5d5a38005470e031f0fcfab9f256cd871d43129c426830bf",
+      "sha256": "bc47880fee5e6aad5d5a38005470e031f0fcfab9f256cd871d43129c426830bf",
+      "bytes": 1313,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "data/handeye_20260910T101550Z/samples.jsonl",
+      "path": "results/archive/data/handeye_20260910T101550Z/samples.jsonl",
+      "category": "acquisition metadata and numerical records",
+      "source_sha256": "ca9e2b09f9f51b5ba5282197d73e60f0ed0e08d63769515053c968263ed1ac0f",
+      "sha256": "ca9e2b09f9f51b5ba5282197d73e60f0ed0e08d63769515053c968263ed1ac0f",
+      "bytes": 116690,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "data/handeye_20260910T102033Z/events.jsonl",
+      "path": "results/archive/data/handeye_20260910T102033Z/events.jsonl",
+      "category": "acquisition metadata and numerical records",
+      "source_sha256": "4a5973d9a6a0bb84fec1a39756923f2f0bbfa188a2d1140886008cf00ee54f3a",
+      "sha256": "e53d59f28a99a60efe0a4d948e969de6d79f36efa101a5cdd7966b22171ea415",
+      "bytes": 5457,
+      "access_paths_normalized": true
+    },
+    {
+      "source": "data/handeye_20260910T102033Z/metadata.json",
+      "path": "results/archive/data/handeye_20260910T102033Z/metadata.json",
+      "category": "acquisition metadata and numerical records",
+      "source_sha256": "bc47880fee5e6aad5d5a38005470e031f0fcfab9f256cd871d43129c426830bf",
+      "sha256": "bc47880fee5e6aad5d5a38005470e031f0fcfab9f256cd871d43129c426830bf",
+      "bytes": 1313,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "data/handeye_20260910T102033Z/samples.jsonl",
+      "path": "results/archive/data/handeye_20260910T102033Z/samples.jsonl",
+      "category": "acquisition metadata and numerical records",
+      "source_sha256": "4d51771cfbf0af1b449c98b0c4e1f8aa8329ba8314b91de8a1533b267cfca18f",
+      "sha256": "4d51771cfbf0af1b449c98b0c4e1f8aa8329ba8314b91de8a1533b267cfca18f",
+      "bytes": 116692,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "data/selector_benchmark_20260910T103158Z/summary.json",
+      "path": "results/archive/data/selector_benchmark_20260910T103158Z/summary.json",
+      "category": "acquisition metadata and numerical records",
+      "source_sha256": "2fcae659cd3937a91baa00c52fa0618b6f04f281e9226a8dbf2f9706b069ac5f",
+      "sha256": "95927967fc003f79c2dc104af290ea3c376207421e2979c2ed90cca51989b43c",
+      "bytes": 37926,
+      "access_paths_normalized": true
+    },
+    {
+      "source": "data/selector_benchmark_20260910T103158Z/timings.jsonl",
+      "path": "results/archive/data/selector_benchmark_20260910T103158Z/timings.jsonl",
+      "category": "acquisition metadata and numerical records",
+      "source_sha256": "7829b4aba383555304d40642084fabd0f71a5b9544695305a5f7854cdcd1952a",
+      "sha256": "7829b4aba383555304d40642084fabd0f71a5b9544695305a5f7854cdcd1952a",
+      "bytes": 2157837,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "data/stationary_feedback_20260910T054129Z.jsonl",
+      "path": "results/archive/data/stationary_feedback_20260910T054129Z.jsonl",
+      "category": "stationary encoder records",
+      "source_sha256": "69fe6fa44be325edfc0d513b63c39fb07e511c8261b959db47293384c12f2b50",
+      "sha256": "69fe6fa44be325edfc0d513b63c39fb07e511c8261b959db47293384c12f2b50",
+      "bytes": 38577,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "src/risk_bounded_collision/heldout_cli.py",
+      "path": "src/risk_bounded_collision/heldout_cli.py",
+      "category": "historical simulation runner",
+      "source_sha256": "fa22bd730eabd27a1934ddd57c1deb8ddc6dd30e4a86fee79ae49ccd885b4f0c",
+      "sha256": "fa22bd730eabd27a1934ddd57c1deb8ddc6dd30e4a86fee79ae49ccd885b4f0c",
+      "bytes": 6690,
+      "access_paths_normalized": false,
+      "packaging_changes": "Normalized source line endings; replaced unsupported preregistration wording with pre-specified. No algorithm change."
+    },
+    {
+      "source": "src/risk_bounded_collision/risk_level_cli.py",
+      "path": "src/risk_bounded_collision/risk_level_cli.py",
+      "category": "historical simulation runner",
+      "source_sha256": "37e832f14fff7f0372645e5b3db06a5c182789c1671fb14ff947c3a3c0c52764",
+      "sha256": "37e832f14fff7f0372645e5b3db06a5c182789c1671fb14ff947c3a3c0c52764",
+      "bytes": 6393,
+      "access_paths_normalized": false,
+      "packaging_changes": "Normalized source line endings; replaced unsupported preregistration wording with pre-specified. No algorithm change."
+    },
+    {
+      "source": "src/risk_bounded_collision/stress_validation_cli.py",
+      "path": "src/risk_bounded_collision/stress_validation_cli.py",
+      "category": "historical simulation runner",
+      "source_sha256": "51a2e8b6f7bd02419280da5ad7bb71b1088c3ee33fc2ccd7e07556fd6af658ac",
+      "sha256": "3c726013edcfa6a48a5b57dfa90d93e1a510dccfc8d0ee56ceb3ebbb331bc706",
+      "bytes": 6059,
+      "access_paths_normalized": false,
+      "packaging_changes": "Normalized source line endings; replaced unsupported preregistration wording with pre-specified. No algorithm change."
+    },
+    {
+      "source": "src/risk_bounded_collision/swept_validation_cli.py",
+      "path": "src/risk_bounded_collision/swept_validation_cli.py",
+      "category": "historical simulation runner",
+      "source_sha256": "c7ecca484fce55dd2ace264dd5be2d7c977d96b5756eb8f1553d58d0077ef52d",
+      "sha256": "7166dd3c51478199f7305e7bcf90d767fdf537914e802ca5e1b0bc7b002afe14",
+      "bytes": 6961,
+      "access_paths_normalized": false,
+      "packaging_changes": "Normalized source line endings; replaced unsupported preregistration wording with pre-specified. No algorithm change."
+    },
+    {
+      "source": "src/risk_bounded_collision/certificate_analysis_cli.py",
+      "path": "src/risk_bounded_collision/certificate_analysis_cli.py",
+      "category": "historical simulation runner",
+      "source_sha256": "7e6faa7c266c4b311c4dc7d12fd310553805654c91a90205bfa08c8a93e31ebc",
+      "sha256": "ba7f2ea338f5674659aae22689e915ff0b489459cacf88b2425ac5865f81637d",
+      "bytes": 4862,
+      "access_paths_normalized": false,
+      "packaging_changes": "Normalized source line endings; replaced unsupported preregistration wording with pre-specified. No algorithm change."
+    },
+    {
+      "source": "src/risk_bounded_collision/hsc_baseline.py",
+      "path": "src/risk_bounded_collision/hsc_baseline.py",
+      "category": "historical simulation runner",
+      "source_sha256": "e3b53044d1b61e08624ad61e0e6531365b7b6904d58e215eab177448547631ee",
+      "sha256": "e3b53044d1b61e08624ad61e0e6531365b7b6904d58e215eab177448547631ee",
+      "bytes": 5850,
+      "access_paths_normalized": false,
+      "packaging_changes": "Normalized source line endings; replaced unsupported preregistration wording with pre-specified. No algorithm change."
+    },
+    {
+      "source": "src/risk_bounded_collision/hsc_baseline_cli.py",
+      "path": "src/risk_bounded_collision/hsc_baseline_cli.py",
+      "category": "historical simulation runner",
+      "source_sha256": "ef10faae0aec88d67885c537e717a899349ab9e4ab03899b7fd6fbf81fb6b222",
+      "sha256": "ef10faae0aec88d67885c537e717a899349ab9e4ab03899b7fd6fbf81fb6b222",
+      "bytes": 7181,
+      "access_paths_normalized": false,
+      "packaging_changes": "Normalized source line endings; replaced unsupported preregistration wording with pre-specified. No algorithm change."
+    },
+    {
+      "source": "artifacts/handeye_repeat_20260910T102033Z/repeat_consistency.png",
+      "path": "results/figures/repeat_consistency.png",
+      "category": "reviewed calibration plot",
+      "source_sha256": "7083e2cd79ae833513f06af5f3c3a904f9d5272d21e87463634beebe271ce2db",
+      "sha256": "7083e2cd79ae833513f06af5f3c3a904f9d5272d21e87463634beebe271ce2db",
+      "bytes": 122960,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "HRI2027/stress_condition_counts_2026-09-13.csv",
+      "path": "results/archive/stress_condition_counts_2026-09-13.csv",
+      "category": "manuscript stress table",
+      "source_sha256": "c0d66fc916524fa663e82ec41fe6efd1ebce40d74019646e4ae320252227e768",
+      "sha256": "c0d66fc916524fa663e82ec41fe6efd1ebce40d74019646e4ae320252227e768",
+      "bytes": 3674,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "outputs/heldout_risk_comparison.png",
+      "path": "results/figures/historical/heldout_risk_comparison.png",
+      "category": "historical plot; see gallery interpretation notes",
+      "source_sha256": "5c5d6dd9e838282d290548e420e61b4cbf62651fc4c168f6719aa0cbbc8a6583",
+      "sha256": "5c5d6dd9e838282d290548e420e61b4cbf62651fc4c168f6719aa0cbbc8a6583",
+      "bytes": 95439,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "outputs/hsc_reduced_baseline_comparison.png",
+      "path": "results/figures/historical/hsc_reduced_baseline_comparison.png",
+      "category": "historical plot; see gallery interpretation notes",
+      "source_sha256": "ce9dd34ca18cc52f53b1043ec7fbc06b07a2bbe84ac464a70553be6077645afb",
+      "sha256": "ce9dd34ca18cc52f53b1043ec7fbc06b07a2bbe84ac464a70553be6077645afb",
+      "bytes": 119328,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "outputs/risk_budget_comparison.png",
+      "path": "results/figures/historical/risk_budget_comparison.png",
+      "category": "historical plot; see gallery interpretation notes",
+      "source_sha256": "6f849cf0fbd7716ee31ca90c0d51f1573923110fa2971ed17ed43ce48a438b84",
+      "sha256": "6f849cf0fbd7716ee31ca90c0d51f1573923110fa2971ed17ed43ce48a438b84",
+      "bytes": 168935,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "outputs/risk_level_margin_comparison.png",
+      "path": "results/figures/historical/risk_level_margin_comparison.png",
+      "category": "historical plot; see gallery interpretation notes",
+      "source_sha256": "4780047a6d150e1b90556c41110f613639c5d7f04a65bf775fbc938e7bc59205",
+      "sha256": "4780047a6d150e1b90556c41110f613639c5d7f04a65bf775fbc938e7bc59205",
+      "bytes": 85309,
+      "access_paths_normalized": false
+    },
+    {
+      "source": "outputs/runtime_profile.png",
+      "path": "results/figures/historical/runtime_profile.png",
+      "category": "historical plot; see gallery interpretation notes",
+      "source_sha256": "3d6648edb6305c7318b639a54c2c3a6df5877de43ea3612697811b08e7a89c74",
+      "sha256": "3d6648edb6305c7318b639a54c2c3a6df5877de43ea3612697811b08e7a89c74",
+      "bytes": 62849,
+      "access_paths_normalized": false
+    }
+  ]
+}

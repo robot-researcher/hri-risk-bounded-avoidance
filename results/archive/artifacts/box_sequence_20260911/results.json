@@ -1,0 +1,60 @@
+{
+  "reference_mm": 716.0,
+  "roi_xyxy": [
+    240,
+    320,
+    400,
+    390
+  ],
+  "foreground_threshold_mm": 50,
+  "minimum_valid_fraction": 0.9,
+  "trials": [
+    {
+      "trial": "20260911T115858Z_background",
+      "frames": 60,
+      "median_depth_mm": 716.0,
+      "frame_median_min_mm": 715.0,
+      "frame_median_max_mm": 716.0,
+      "valid_fraction": 0.9999642857142857,
+      "foreground_frames": 0,
+      "unknown_frames": 0
+    },
+    {
+      "trial": "20260911T115632Z_obstacle",
+      "frames": 60,
+      "median_depth_mm": 359.0,
+      "frame_median_min_mm": 359.0,
+      "frame_median_max_mm": 359.0,
+      "valid_fraction": 0.9999940476190476,
+      "foreground_frames": 60,
+      "unknown_frames": 0
+    },
+    {
+      "trial": "20260911T120444Z_obstacle",
+      "frames": 60,
+      "median_depth_mm": 364.0,
+      "frame_median_min_mm": 364.0,
+      "frame_median_max_mm": 364.0,
+      "valid_fraction": 0.9984940476190476,
+      "foreground_frames": 60,
+      "unknown_frames": 0
+    },
+    {
+      "trial": "20260911T120830Z_background",
+      "frames": 60,
+      "median_depth_mm": 716.0,
+      "frame_median_min_mm": 716.0,
+      "frame_median_max_mm": 717.0,
+      "valid_fraction": 0.9998869047619048,
+      "foreground_frames": 0,
+      "unknown_frames": 0
+    }
+  ],
+  "limitations": [
+    "Fixed ROI exploratory sanity check; threshold and ROI reused from earlier comparison, not a validated detector.",
+    "Second background is held out from reference calculation; first obstacle informed ROI selection.",
+    "Temporal frames are correlated: four captures, not 240 independent experiments.",
+    "Invalid/insufficient data is UNKNOWN, never clear.",
+    "No physical avoidance, safety certification, precision/recall study, or absolute accuracy measurement."
+  ]
+}

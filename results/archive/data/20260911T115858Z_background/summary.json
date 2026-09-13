@@ -1,0 +1,150 @@
+{
+  "label": "background",
+  "frames": 60,
+  "reference_cm": null,
+  "status": "complete",
+  "maximum_start_end_encoder_change_ticks": 1,
+  "center_depth_median_mm": 756.0,
+  "center_depth_p05_mm": 751.0,
+  "center_depth_p95_mm": 760.0,
+  "before": {
+    "schema": 1,
+    "source": "board_position_read",
+    "stationary_only": true,
+    "timestamp_basis": "host_request_receipt",
+    "readings": [
+      {
+        "id": 1,
+        "valid": true,
+        "position_ticks": 502,
+        "request_unix_s": 1789127938.896231,
+        "status": "ok",
+        "receipt_unix_s": 1789127938.8998141,
+        "round_trip_s": 0.0035876170004485175
+      },
+      {
+        "id": 2,
+        "valid": true,
+        "position_ticks": 702,
+        "request_unix_s": 1789127938.899838,
+        "status": "ok",
+        "receipt_unix_s": 1789127938.9031334,
+        "round_trip_s": 0.003297248011222109
+      },
+      {
+        "id": 3,
+        "valid": true,
+        "position_ticks": 200,
+        "request_unix_s": 1789127938.9031527,
+        "status": "ok",
+        "receipt_unix_s": 1789127938.9075055,
+        "round_trip_s": 0.004354924007202499
+      },
+      {
+        "id": 4,
+        "valid": true,
+        "position_ticks": 191,
+        "request_unix_s": 1789127938.9075315,
+        "status": "ok",
+        "receipt_unix_s": 1789127938.9110155,
+        "round_trip_s": 0.003486158006126061
+      },
+      {
+        "id": 5,
+        "valid": true,
+        "position_ticks": 499,
+        "request_unix_s": 1789127938.91104,
+        "status": "ok",
+        "receipt_unix_s": 1789127938.9142745,
+        "round_trip_s": 0.0032365689985454082
+      },
+      {
+        "id": 10,
+        "valid": true,
+        "position_ticks": 503,
+        "request_unix_s": 1789127938.9142933,
+        "status": "ok",
+        "receipt_unix_s": 1789127938.917708,
+        "round_trip_s": 0.003416520994505845
+      }
+    ]
+  },
+  "after": {
+    "schema": 1,
+    "source": "board_position_read",
+    "stationary_only": true,
+    "timestamp_basis": "host_request_receipt",
+    "readings": [
+      {
+        "id": 1,
+        "valid": true,
+        "position_ticks": 502,
+        "request_unix_s": 1789127945.5028803,
+        "status": "ok",
+        "receipt_unix_s": 1789127945.5068772,
+        "round_trip_s": 0.004001427005277947
+      },
+      {
+        "id": 2,
+        "valid": true,
+        "position_ticks": 702,
+        "request_unix_s": 1789127945.5068994,
+        "status": "ok",
+        "receipt_unix_s": 1789127945.5104203,
+        "round_trip_s": 0.0035227199987275526
+      },
+      {
+        "id": 3,
+        "valid": true,
+        "position_ticks": 200,
+        "request_unix_s": 1789127945.5104425,
+        "status": "ok",
+        "receipt_unix_s": 1789127945.5139663,
+        "round_trip_s": 0.00352589700196404
+      },
+      {
+        "id": 4,
+        "valid": true,
+        "position_ticks": 191,
+        "request_unix_s": 1789127945.5139878,
+        "status": "ok",
+        "receipt_unix_s": 1789127945.517455,
+        "round_trip_s": 0.0034689169988268986
+      },
+      {
+        "id": 5,
+        "valid": true,
+        "position_ticks": 499,
+        "request_unix_s": 1789127945.5174806,
+        "status": "ok",
+        "receipt_unix_s": 1789127945.5209627,
+        "round_trip_s": 0.0034843859903048724
+      },
+      {
+        "id": 10,
+        "valid": true,
+        "position_ticks": 502,
+        "request_unix_s": 1789127945.5209868,
+        "status": "ok",
+        "receipt_unix_s": 1789127945.5278747,
+        "round_trip_s": 0.006890074000693858
+      }
+    ]
+  },
+  "depth_K": [
+    476.1980285644531,
+    0.0,
+    323.6578063964844,
+    0.0,
+    476.1980285644531,
+    198.04949951171875,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "width": 640,
+  "height": 400,
+  "frame_id": "rgbd_cam_depth_optical_frame",
+  "output": "<robot-home>/experiment_data/depth_trials_20260911/20260911T115858Z_background",
+  "limitations": "Stationary labeled sensing trial; no physical avoidance or stopping-time measurement."
+}

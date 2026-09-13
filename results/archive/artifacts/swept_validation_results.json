@@ -1,0 +1,40 @@
+{
+  "protocol": "seeded random quintic joint-line primitives; fixed circular obstacles; dense interpolation used only as an empirical oracle",
+  "scene_count": 2500,
+  "seed": 8101,
+  "dense_steps_per_interval": 100,
+  "summary": {
+    "bound_violations": 0,
+    "false_safe_certificates": 0,
+    "certified_collision_free": 199,
+    "dense_collision_free": 539,
+    "conservative_rejections": 340,
+    "hidden_between_sample_collisions": 658,
+    "hidden_collisions_detected": 658,
+    "mean_dense_minus_bound_clearance_m": 0.04861341370477532,
+    "minimum_dense_minus_bound_clearance_m": 5.441304750525289e-06,
+    "maximum_dense_minus_bound_clearance_m": 0.299327495183226,
+    "by_sample_count": {
+      "3": {
+        "scenes": 619,
+        "certified_free": 24,
+        "dense_free": 121
+      },
+      "11": {
+        "scenes": 639,
+        "certified_free": 107,
+        "dense_free": 137
+      },
+      "2": {
+        "scenes": 601,
+        "certified_free": 20,
+        "dense_free": 137
+      },
+      "5": {
+        "scenes": 641,
+        "certified_free": 48,
+        "dense_free": 144
+      }
+    }
+  }
+}

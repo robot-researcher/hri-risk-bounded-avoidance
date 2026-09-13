@@ -1,0 +1,133 @@
+{
+  "method": "planar capsule links; first-order normal projection; union bound across links",
+  "trials_per_scenario": 10000,
+  "total_trials": 90000,
+  "guard_sigma_multiplier": 1.1,
+  "summary": {
+    "scenarios": 9,
+    "scenarios_with_collision_events": 6,
+    "nominal_mean_absolute_error_on_event_scenarios": 0.0025092177793522743,
+    "guarded_covers_wilson_on_event_scenarios": 6,
+    "zero_event_scenarios": 3,
+    "zero_event_wilson_resolution_95": 0.000270481165554849
+  },
+  "results": [
+    {
+      "scenario": "tight-clearance-0.5deg",
+      "trials": 10000,
+      "seed": 101,
+      "predicted_risk": 0.19733892546202464,
+      "guard_sigma_multiplier": 1.1,
+      "guarded_risk": 0.21952864090145124,
+      "collisions": 1982,
+      "observed_rate": 0.1982,
+      "wilson_upper_95": 0.20483835708515896,
+      "guarded_covers_wilson": true,
+      "joint_noise_stddev_degrees": 0.5
+    },
+    {
+      "scenario": "moderate-clearance-0.5deg",
+      "trials": 10000,
+      "seed": 202,
+      "predicted_risk": 1.6366692312530517e-07,
+      "guard_sigma_multiplier": 1.1,
+      "guarded_risk": 1.7192882632577344e-06,
+      "collisions": 0,
+      "observed_rate": 0.0,
+      "wilson_upper_95": 0.000270481165554849,
+      "guarded_covers_wilson": false,
+      "joint_noise_stddev_degrees": 0.5
+    },
+    {
+      "scenario": "open-clearance-0.5deg",
+      "trials": 10000,
+      "seed": 303,
+      "predicted_risk": 0.0,
+      "guard_sigma_multiplier": 1.1,
+      "guarded_risk": 0.0,
+      "collisions": 0,
+      "observed_rate": 0.0,
+      "wilson_upper_95": 0.000270481165554849,
+      "guarded_covers_wilson": false,
+      "joint_noise_stddev_degrees": 0.5
+    },
+    {
+      "scenario": "tight-clearance-1deg",
+      "trials": 10000,
+      "seed": 1101,
+      "predicted_risk": 0.33520615465504483,
+      "guard_sigma_multiplier": 1.1,
+      "guarded_risk": 0.3494184224077625,
+      "collisions": 3403,
+      "observed_rate": 0.3403,
+      "wilson_upper_95": 0.348135742363006,
+      "guarded_covers_wilson": true,
+      "joint_noise_stddev_degrees": 1.0
+    },
+    {
+      "scenario": "moderate-clearance-1deg",
+      "trials": 10000,
+      "seed": 1202,
+      "predicted_risk": 0.005332405918598737,
+      "guard_sigma_multiplier": 1.1,
+      "guarded_risk": 0.010133819424822277,
+      "collisions": 41,
+      "observed_rate": 0.0041,
+      "wilson_upper_95": 0.005293573575932949,
+      "guarded_covers_wilson": true,
+      "joint_noise_stddev_degrees": 1.0
+    },
+    {
+      "scenario": "open-clearance-1deg",
+      "trials": 10000,
+      "seed": 1303,
+      "predicted_risk": 4.586237833947848e-09,
+      "guard_sigma_multiplier": 1.1,
+      "guarded_risk": 8.799858242092284e-08,
+      "collisions": 0,
+      "observed_rate": 0.0,
+      "wilson_upper_95": 0.000270481165554849,
+      "guarded_covers_wilson": false,
+      "joint_noise_stddev_degrees": 1.0
+    },
+    {
+      "scenario": "tight-clearance-2deg",
+      "trials": 10000,
+      "seed": 2101,
+      "predicted_risk": 0.41978479340610325,
+      "guard_sigma_multiplier": 1.1,
+      "guarded_risk": 0.43132634517201957,
+      "collisions": 4137,
+      "observed_rate": 0.4137,
+      "wilson_upper_95": 0.4218231188418863,
+      "guarded_covers_wilson": true,
+      "joint_noise_stddev_degrees": 2.0
+    },
+    {
+      "scenario": "moderate-clearance-2deg",
+      "trials": 10000,
+      "seed": 2202,
+      "predicted_risk": 0.10268233244263159,
+      "guard_sigma_multiplier": 1.1,
+      "guarded_risk": 0.12702094513621942,
+      "collisions": 1018,
+      "observed_rate": 0.1018,
+      "wilson_upper_95": 0.10688199167107494,
+      "guarded_covers_wilson": true,
+      "joint_noise_stddev_degrees": 2.0
+    },
+    {
+      "scenario": "open-clearance-2deg",
+      "trials": 10000,
+      "seed": 2303,
+      "predicted_risk": 0.0020991449741504242,
+      "guard_sigma_multiplier": 1.1,
+      "guarded_risk": 0.004756097774989754,
+      "collisions": 30,
+      "observed_rate": 0.003,
+      "wilson_upper_95": 0.004043868724774111,
+      "guarded_covers_wilson": true,
+      "joint_noise_stddev_degrees": 2.0
+    }
+  ]
+}
