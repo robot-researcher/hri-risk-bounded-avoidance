@@ -1,0 +1,5 @@
+timestamp_utc,scenario,clearance_m,noise_stddev_degrees,obstacle_age_s,threshold,risk_bound,command,reason,latency_ms,expected,passed
+2026-09-01T07:52:28.158265+00:00,CLEAR WORKSPACE,0.3,1.0,0.02,0.041368099166808205,0.0,EXECUTE primitive-0005,selected lowest goal-cost primitive from bounded feasible set,0.06029999894963112,EXECUTE,True
+2026-09-01T07:52:28.268715+00:00,OBSTACLE TOO CLOSE,0.05,1.0,0.02,0.017978501787238,,HOLD,no certified primitive satisfies the active risk threshold,0.02809999932651408,HOLD,True
+2026-09-01T07:52:28.344691+00:00,HIGH ENCODER UNCERTAINTY,0.15,20.0,0.02,3.849419499095804e-06,,HOLD,no certified primitive satisfies the active risk threshold,0.03149999974993989,HOLD,True
+2026-09-01T07:52:28.408550+00:00,STALE PERCEPTION,0.3,1.0,0.8,0.041368099166808205,,HOLD,obstacle observation is stale,0.012900000001536682,HOLD,True

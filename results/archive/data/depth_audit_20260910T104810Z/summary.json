@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "accepted": 30,
+  "rejected": {
+    "'rgb'": 4
+  },
+  "output": "<robot-home>/experiment_data/depth_audit_20260910T104810Z",
+  "limitations": "Board plane comparison depends on RGB PnP and vendor depth/color extrinsics; not independent distance ground truth.",
+  "stamp_skew_ms_mean": 8.907917766666662,
+  "global_valid_fraction_mean": 0.7870588541666668,
+  "board_plane_median_abs_mm_mean": 57.010689882376866,
+  "board_plane_p95_abs_mm_mean": 58.62566539261672
+}

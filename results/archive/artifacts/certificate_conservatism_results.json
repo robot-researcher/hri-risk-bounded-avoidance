@@ -1,0 +1,42 @@
+{
+  "protocol": "seeded random nominal configurations; stationary primitives; no Monte Carlo",
+  "interpretation": "measures conservatism relative to the direction-aware first-order model, not physical collision probability",
+  "scene_count": 10000,
+  "seed": 7301,
+  "sigma_multiplier": 1.1,
+  "risk_levels": [
+    0.001,
+    0.01,
+    0.05
+  ],
+  "summary": {
+    "0.001": {
+      "directional_safe_scenes": 7935,
+      "offline_accepted_scenes": 5390,
+      "offline_coverage": 0.539,
+      "over_rejected_safe_scenes": 2545,
+      "over_rejection_rate_among_directional_safe": 0.3207309388783869,
+      "false_acceptances_against_directional_model": 0
+    },
+    "0.01": {
+      "directional_safe_scenes": 8462,
+      "offline_accepted_scenes": 6553,
+      "offline_coverage": 0.6553,
+      "over_rejected_safe_scenes": 1909,
+      "over_rejection_rate_among_directional_safe": 0.22559678562987473,
+      "false_acceptances_against_directional_model": 0
+    },
+    "0.05": {
+      "directional_safe_scenes": 8990,
+      "offline_accepted_scenes": 7558,
+      "offline_coverage": 0.7558,
+      "over_rejected_safe_scenes": 1432,
+      "over_rejection_rate_among_directional_safe": 0.1592880978865406,
+      "false_acceptances_against_directional_model": 0
+    }
+  },
+  "conservatism_gap": {
+    "mean_offline_minus_directional": 0.07847372435348018,
+    "maximum_offline_minus_directional": 0.9999999999670885
+  }
+}

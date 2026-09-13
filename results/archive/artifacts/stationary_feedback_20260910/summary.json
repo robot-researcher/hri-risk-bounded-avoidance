@@ -1,0 +1,86 @@
+{
+  "samples": 30,
+  "all_servo_success": 30,
+  "servos": [
+    {
+      "id": 1,
+      "valid": 30,
+      "total": 30,
+      "command_ticks": 500,
+      "mean_ticks": 498.3,
+      "sample_std_ticks": 0.5349830806219241,
+      "min_ticks": 498.0,
+      "max_ticks": 500.0,
+      "mean_minus_command_ticks": -1.6999999999999886,
+      "mean_round_trip_ms": 3.4757278000294414,
+      "max_round_trip_ms": 3.6100180000175897
+    },
+    {
+      "id": 2,
+      "valid": 30,
+      "total": 30,
+      "command_ticks": 700,
+      "mean_ticks": 700.9666666666667,
+      "sample_std_ticks": 0.18257418583505536,
+      "min_ticks": 700.0,
+      "max_ticks": 701.0,
+      "mean_minus_command_ticks": 0.966666666666697,
+      "mean_round_trip_ms": 3.422987166671495,
+      "max_round_trip_ms": 4.375398999854951
+    },
+    {
+      "id": 3,
+      "valid": 30,
+      "total": 30,
+      "command_ticks": 200,
+      "mean_ticks": 194.9,
+      "sample_std_ticks": 0.4025778999364489,
+      "min_ticks": 193.0,
+      "max_ticks": 195.0,
+      "mean_minus_command_ticks": -5.099999999999994,
+      "mean_round_trip_ms": 3.5222166999574256,
+      "max_round_trip_ms": 5.182652999792481
+    },
+    {
+      "id": 4,
+      "valid": 30,
+      "total": 30,
+      "command_ticks": 250,
+      "mean_ticks": 246.3,
+      "sample_std_ticks": 0.46609159969939906,
+      "min_ticks": 246.0,
+      "max_ticks": 247.0,
+      "mean_minus_command_ticks": -3.6999999999999886,
+      "mean_round_trip_ms": 3.5171314666513354,
+      "max_round_trip_ms": 5.028326999763522
+    },
+    {
+      "id": 5,
+      "valid": 30,
+      "total": 30,
+      "command_ticks": 500,
+      "mean_ticks": 499.0,
+      "sample_std_ticks": 0.0,
+      "min_ticks": 499.0,
+      "max_ticks": 499.0,
+      "mean_minus_command_ticks": -1.0,
+      "mean_round_trip_ms": 3.322459233337819,
+      "max_round_trip_ms": 4.222114000185684
+    },
+    {
+      "id": 10,
+      "valid": 30,
+      "total": 30,
+      "command_ticks": 500,
+      "mean_ticks": 501.8,
+      "sample_std_ticks": 0.4842341981115023,
+      "min_ticks": 501.0,
+      "max_ticks": 503.0,
+      "mean_minus_command_ticks": 1.8000000000000114,
+      "mean_round_trip_ms": 3.4887403666289174,
+      "max_round_trip_ms": 5.1484349996826495
+    }
+  ],
+  "source": "board_position_read",
+  "scope": "Stationary single-pose baseline; not dynamic tracking or absolute accuracy"
+}

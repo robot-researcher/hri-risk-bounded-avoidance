@@ -61,11 +61,11 @@ We evaluated stationary RGB-D sensing feasibility across six 60-frame depth sequ
 
 Key sensing outcomes:
 
-- **Foreground separation**: The obstacle produced 350–358 mm separation from the 716 mm tabletop background. 100% of jointly valid pixels in the ROI were nearer by $>50\text{ mm}$ across all 240 obstacle frames.
+- **Foreground separation**: The obstacle produced 350–358 mm separation from the 716 mm tabletop background. The compared temporal-median depth maps showed all jointly valid ROI pixels nearer by more than 50 mm. This map statistic is separate from the 240 frame-level foreground triggers.
 - **Background stability**: The held-out background matched the reference background with identical 716.0 mm median depth, a median pixelwise difference of 1.0 mm, and a maximum absolute pixelwise difference of 10.0 mm across all 11,200 pixels.
-- **Repeatability**: Unguided repositioning differed from the initial placement by 5.0 mm (364 vs 359 mm), marked replacement reproduced the initial depth exactly (359.0 vs 359.0 mm, 0.0 mm delta), and overnight settling remained within 3.0 mm (356.0 mm).
-- **False-trigger sanity**: 240/240 obstacle frames triggered foreground detection; 0/120 background frames triggered false detections. Zero frames had invalid/unknown depth.
-- **Sampling latency**: Mean frame interval was 100.83 ms ($\approx 9.92\text{ Hz}$, std 9.27 ms, p05 97.13 ms, p95 126.74 ms).
+- **Repeatability**: Unguided repositioning differed from the initial placement by 5.0 mm (364 vs 359 mm), marked replacement had the same quantized median (359.0 mm), and the retained overnight scene had a 356.0 mm median. These do not establish exact physical replacement or general multi-day stability.
+- **False-trigger sanity**: 240/240 obstacle frames triggered foreground detection; 0/120 background frames triggered false detections. No frames were classified UNKNOWN; this means each passed the 90% ROI validity gate, not that every pixel was valid.
+- **Deliberately paced recording interval**: Mean frame interval was 100.83 ms ($\approx 9.92\text{ Hz}$, std 9.27 ms, p05 97.13 ms, p95 126.74 ms). The capture loop deliberately slept about 0.1 seconds; this is neither native camera throughput nor perception latency.
 
 Evidence: `results/tabletop_obstacle_sensing.json`.
 
@@ -86,4 +86,5 @@ To prevent conflation of algorithmic properties with physical capabilities, resu
 - Covariance, source hashes, query sets, timing records and explicit geometry are saved with the results.
 - Stationary encoder scatter does not identify dynamic tracking error, bias or Gaussian tail behavior.
 - The continuous swept-bound implementation assumes quasi-static Gaussian joint offsets over a primitive; it does not cover arbitrary moving obstacles or actuator dynamics.
-- The manuscript's description of first-order propagation must be reconciled with the released nonlinear swept-bound implementation before submission.
+- Historical first-order directional validation and the complete-link displacement model are distinct; see the paper-to-code guide.
+- See [the complete catalog](EXPERIMENT_CATALOG.md) for later retained-scene results, failed/exploratory calibration, historical simulation suites and label corrections.
