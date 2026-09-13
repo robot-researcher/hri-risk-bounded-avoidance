@@ -1,0 +1,92 @@
+{
+  "seed": 20260912,
+  "roi_xyxy": [
+    240,
+    320,
+    400,
+    390
+  ],
+  "reference_mm": 716,
+  "threshold_mm": 50,
+  "minimum_valid_fraction": 0.9,
+  "rows": [
+    {
+      "trial": "20260911T120830Z_background",
+      "raw_sha256": "4d782486c7e2b6d132c82802bb201d187f66a5113aac4e4b5f2a29df74fdd25b",
+      "synthetic_dropout_fraction": 0,
+      "frames": 60,
+      "foreground": 0,
+      "background": 60,
+      "unknown": 0
+    },
+    {
+      "trial": "20260911T120830Z_background",
+      "raw_sha256": "4d782486c7e2b6d132c82802bb201d187f66a5113aac4e4b5f2a29df74fdd25b",
+      "synthetic_dropout_fraction": 0.05,
+      "frames": 60,
+      "foreground": 0,
+      "background": 60,
+      "unknown": 0
+    },
+    {
+      "trial": "20260911T120830Z_background",
+      "raw_sha256": "4d782486c7e2b6d132c82802bb201d187f66a5113aac4e4b5f2a29df74fdd25b",
+      "synthetic_dropout_fraction": 0.2,
+      "frames": 60,
+      "foreground": 0,
+      "background": 0,
+      "unknown": 60
+    },
+    {
+      "trial": "20260911T120830Z_background",
+      "raw_sha256": "4d782486c7e2b6d132c82802bb201d187f66a5113aac4e4b5f2a29df74fdd25b",
+      "synthetic_dropout_fraction": 1,
+      "frames": 60,
+      "foreground": 0,
+      "background": 0,
+      "unknown": 60
+    },
+    {
+      "trial": "20260912T082901Z_obstacle",
+      "raw_sha256": "190a99015302adf2a4cad98130a763391df14540005f8ca5a297afb3e61ec009",
+      "synthetic_dropout_fraction": 0,
+      "frames": 60,
+      "foreground": 60,
+      "background": 0,
+      "unknown": 0
+    },
+    {
+      "trial": "20260912T082901Z_obstacle",
+      "raw_sha256": "190a99015302adf2a4cad98130a763391df14540005f8ca5a297afb3e61ec009",
+      "synthetic_dropout_fraction": 0.05,
+      "frames": 60,
+      "foreground": 60,
+      "background": 0,
+      "unknown": 0
+    },
+    {
+      "trial": "20260912T082901Z_obstacle",
+      "raw_sha256": "190a99015302adf2a4cad98130a763391df14540005f8ca5a297afb3e61ec009",
+      "synthetic_dropout_fraction": 0.2,
+      "frames": 60,
+      "foreground": 0,
+      "background": 0,
+      "unknown": 60
+    },
+    {
+      "trial": "20260912T082901Z_obstacle",
+      "raw_sha256": "190a99015302adf2a4cad98130a763391df14540005f8ca5a297afb3e61ec009",
+      "synthetic_dropout_fraction": 1,
+      "frames": 60,
+      "foreground": 0,
+      "background": 0,
+      "unknown": 60
+    }
+  ],
+  "limitations": [
+    "Software replay with synthetic random pixel invalidation; no physical sensor fault was induced.",
+    "ROI and thresholds inherited from exploratory scene comparison.",
+    "UNKNOWN is an analysis label; this script issues no physical hold command.",
+    "Does not cover biased valid depth, stale data, occlusion geometry, or moving obstacles."
+  ]
+}
