@@ -3,7 +3,6 @@
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB.svg)](pyproject.toml)
 [![Human-Robot Interaction](https://img.shields.io/badge/Research-Human--Robot_Interaction-00695C.svg)](docs/PAPER_TO_CODE.md)
 [![Collision Avoidance](https://img.shields.io/badge/Focus-Collision_Avoidance-455A64.svg)](docs/EXPERIMENT_CATALOG.md)
-[![Manuscript in preparation](https://img.shields.io/badge/Manuscript-In_Preparation-8E6C00.svg)](docs/PAPER_TO_CODE.md)
 
 Research companion for **Offline-Certified Risk-Bounded Collision Avoidance for Robotic Manipulators Under Encoder Uncertainty** (HRI 2027 manuscript in preparation).
 
